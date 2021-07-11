@@ -12,7 +12,7 @@ const App = () => {
   const [notes, setNotes] = useState([]);
   const [newNote, setNewNote] = useState("");
   const [showAll, setShowAll] = useState(true);
-  const [errorMessage, setErrorMessage] = useState("some error happened..");
+  const [errorMessage, setErrorMessage] = useState(null);
 
   useEffect(() => {
     noteService.getAll().then((initialNotes) => {
@@ -84,6 +84,7 @@ const App = () => {
         ))}
       </ul>
       <form onSubmit={addNote}>
+        <p>Make a new note:</p>
         <input value={newNote} onChange={handleNoteChange} />
         <button type="submit">save</button>
       </form>
