@@ -3,6 +3,7 @@ const Note = require("../models/note");
 
 notesRouter.get("/", async (request, response) => {
   const notes = await Note.find({});
+  console.log(response);
   response.json(notes.map((note) => note.toJSON()));
 });
 
