@@ -19,12 +19,12 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "node ./server/index.js",
+    "start": "node ./express-server/index.js",
     "dev": "nodemon index.js",
     "server": "json-server -p3001 --watch db.json",
     "build:ui": "rm -rf build && cd ./client/ && npm run build --prod && cp -r build ../server",
-    "deploy": "git push --set-upstream origin herokudeploy",
-    "deploy:full": "npm run build:ui && git checkout herokudeploy && git add . && git commit -m 'uibuild' && npm run deploy"
+    "deploy": "git push",
+    "deploy:full": "npm run build:ui && git add . && git commit -m 'uibuild' && npm run deploy"
   },
   "eslintConfig": {
     "extends": [
