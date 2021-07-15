@@ -1,7 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 #SECURE DATABASE
-/express-server/.env
+/express-server/env
+/server/env
 
 # dependencies
 /client/node_modules
