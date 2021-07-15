@@ -6,6 +6,9 @@
 /server/env
 /server/.env
 /server/.env.js
+./server/env
+./server/.env
+./server/.env.js
 
 # dependencies
 /client/node_modules

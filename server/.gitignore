@@ -4,8 +4,9 @@
 /express-server/env
 /server/env
 env
-.env
 env.js
+.env
+.env.js
 
 # dependencies
 /client/node_modules
