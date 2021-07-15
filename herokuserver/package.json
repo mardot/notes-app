@@ -23,7 +23,7 @@
     "dev": "nodemon index.js",
     "server": "json-server -p3001 --watch db.json",
     "build:ui": "rm -rf build && cd ../client/ && npm run build --prod && cp -r build ../herokuserver",
-    "deploy": "git push heroku master",
+    "deploy": "git push heroku main",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && npm run deploy"
   },
   "eslintConfig": {
