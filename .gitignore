@@ -9,6 +9,14 @@
 ./server/env
 ./server/.env
 ./server/.env.js
+/herokuserver/env
+/herokuserver/.env
+/herokuserver/env.js
+/herokuserver/.env.js
+./herokuserver/env
+./herokuserver/.env
+./herokuserver/env.js
+./herokuserver/.env.js
 
 # dependencies
 /client/node_modules
