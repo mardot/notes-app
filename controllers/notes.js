@@ -29,7 +29,7 @@ notesRouter.post("/", async (request, response) => {
 });
 
 notesRouter.delete("/:id", async (request, response) => {
-  await findByIdAndRemove(request.params.id);
+  await Note.findByIdAndRemove(request.params.id);
   response.status(204).end();
 });
 
