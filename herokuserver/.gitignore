@@ -9,8 +9,7 @@ env.js
 .env.js
 
 # dependencies
-/client/node_modules
-/server/node_modules
+node_modules
 /express-server/node_modules
 /.pnp
 .pnp.js
