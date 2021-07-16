@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server -p3001 --watch db.json",
-    "build:ui": "rm -rf build && npm run build --prod && cp -r build ../express-server "
+    "build:ui": "rm -rf build && npm run build --prod && cp -r build ../server "
 
   },
   "eslintConfig": {

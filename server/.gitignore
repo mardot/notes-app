@@ -9,19 +9,16 @@ env.js
 .env.js
 
 # dependencies
-/client/node_modules
-/server/node_modules
-/express-server/node_modules
+node_modules
 /.pnp
 .pnp.js
+
 
 # testing
 /coverage
 
 # production
-/client/build
-/server/build
-/express-server/build
+
 
 
 # misc
